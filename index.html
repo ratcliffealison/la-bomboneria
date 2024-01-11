@@ -11,8 +11,8 @@
 
 <body>
     <div class="container-fullwidth">
-        <!-- Row para herramienta de cambio de idioma, solamente se muestra en ordenador -->
-        <div class="row bg-dark d-none d-lg-block" id="language-bar">
+        <!-- Row to change language shown on large screens only -->
+        <div class="row d-none d-lg-block">
             <div class="col">
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
@@ -27,9 +27,9 @@
                 </ul>
             </div>
         </div>
-        <!-- NavBar -->
+        <!-- NavBar fixed at top on small device-->
         <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-dark p-3 bg-danger" id="headerNav">
+            <nav class="navbar navbar-expand-lg navbar-light p-3 fixed-sm-top" id="headerNav">
                 <div class="container-fluid">
                     <a class="navbar-brand d-block d-lg-none" href="#">
                         <img src="/src/images/logo.jpg" height="80" />
@@ -45,7 +45,7 @@
                             <li class="nav-item d-lg-none px-4">
                                 <a class="nav-link mx-2" href="index.html">Home</a>
                             </li>
-                           <!-- /item "Home" -->
+                            <!-- /item "Home" -->
                             <li class="nav-item px-4">
                                 <a class="nav-link mx-2" href="src/views/productos.html">Productos</a>
                             </li>
@@ -63,7 +63,7 @@
                                 <a class="nav-link mx-2" href="src/views/temporadas.html">Temporada</a>
                             </li>
                             <li class="nav-item px-4">
-                                <a class="nav-link mx-2" href="src/views/contacto.html">Contacto</a>
+                                <a class="nav-link mx-2" href="#contact">Contacto</a>
                             </li>
 
                         </ul>
@@ -71,8 +71,32 @@
                 </div>
             </nav>
         </div>
+        <!-- Content section -->
+        <!-- Chocolate image -->
+        <div class="row bg-secondary">
+            <div class="col-12">
+                <img src="src/images/chocolates.jpg" alt="">
+            </div>
+            <!-- Product cards -->
+            <div class="col-12">
 
-        <div class="row bg-secondary" id="content-section">hi</div>
+            </div>
+            <!-- Chocolate image -->
+            <div class="col-12">
+                <img src="src/images/chocolates-2.jpg" alt="">
+            </div>
+            <!-- Made in Spain flippers https://bbbootstrap.com/snippets/bootstrap-5-flipping-cards-for-catalog-29291738 -->
+            <div class="col-12">
+
+            </div>
+            <!-- Contact form -->
+            <div class="col-12 data-spy="scroll" data-target="#headerNav" data-offset="0" id="contact">
+                <div class="form">
+
+                </div>
+            </div>
+        </div>
+
         <div class="row bg-danger" id="footer-section">hi</div>
     </div>
 
