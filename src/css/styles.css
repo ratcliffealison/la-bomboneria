@@ -1,0 +1,30 @@
+.btn {
+    background-color: #f76b8A;
+    color: #fcfcfc;
+    border: none;
+}
+.btn:visited {
+    background-color: #f76b8A;
+    color: #fdcdd7;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #f76b8A;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(1px);
+}
+
+/* this isn't working */
+.btn:active  {
+    background-color: #f76b8A;
+    color: #fdcdd7;
+    border:1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+
+.navlink:hover {
+    color: color;
+    
+}
