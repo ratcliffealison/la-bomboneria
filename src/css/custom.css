@@ -3,6 +3,37 @@
 img {
     filter: grayscale(70%)hue-rotate(280deg);
 }
+
+p a li {
+    font-family: 'Libre Caslon Text', serif;
+}
+
+.title-1 {
+    font-family: 'Mukta Vaani', sans-serif;
+    font-weight: 800;
+    color: #f76b8A;
+}
+.title-2 {
+    font-family: 'Mukta Vaani', sans-serif;
+    font-weight: 600;
+    color: #fa9bb0;
+}
+
+.bi {
+    color: #fcfcfc;
+    font-size: 25px;
+}
+
+.nav .nav-link {
+    color: #fcfcfc;
+}
+
+.nav .nav-link:hover {
+    color: #f76b8A;
+    background-color: #fa9bb0;
+    border-radius: 2px;
+}
+
 .btn {
     background-color: #f76b8A;
     color: #fcfcfc;
@@ -17,7 +48,7 @@ img {
 .btn:hover {
     background-color: #f76b8A;
     color: white;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    box-shadow: rgba(0, 0, 0, 0.616) 0 8px 15px;
     transform: translateY(1px);
 }
 
@@ -30,10 +61,14 @@ img {
 }
 
 .navlink:hover {
-    color: color;
+    color:;
     
 }
 
 .nav {
     background-color: #111;
+}
+
+.bi {
+    color: #fcfcfc;
 }
