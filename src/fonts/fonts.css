@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital@0;1&family=Mukta+Vaani:wght@700&display=swap');
+
+p a li {
+    font-family: 'Libre Caslon Text', serif;
+}
+
+.title-1 {
+    font-family: 'Mukta Vaani', sans-serif;
+    font-weight: 800;
+    color: red;
+}
+

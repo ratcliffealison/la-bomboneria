@@ -1,3 +1,8 @@
+@import "../fonts/fonts.css";
+
+img {
+    filter: grayscale(70%)hue-rotate(280deg);
+}
 .btn {
     background-color: #f76b8A;
     color: #fcfcfc;
@@ -27,4 +32,8 @@
 .navlink:hover {
     color: color;
     
+}
+
+.nav {
+    background-color: #111;
 }
