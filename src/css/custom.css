@@ -1,17 +1,46 @@
 @import "../fonts/fonts.css";
 
+/* Images */
 img {
-    filter: grayscale(70%)hue-rotate(280deg);
     border-radius: 2px;
-    height: 10rem;
 }
 
-* p {
-    font-family: 'Libre Caslon Text', serif;
+.carousel-item-image {
+    filter: grayscale(90%)brightness(50%);
+    -webkit-box-reflect: left right 0px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+
 }
 
+/* Background Image Divs */
+.div-1 {
+    background-image: url("../images/content/chocolate-dark-200.jpg");
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    height: 200px;
+    /* You must set a specified height */
+    border-radius: 2px;
+}
+
+.div-2 {
+    background-image: url("../images/content/chocolate-jar.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    height: 200px;
+    /* You must set a specified height */
+    border-radius: 2px;
+}
+
+/* Border radius 2px */
 .br-2 {
     border-radius: 2px;
+}
+
+/* Texts */
+* p {
+    font-family: 'Libre Caslon Text', serif;
 }
 
 .title-1 {
@@ -21,10 +50,25 @@ img {
     text-align: center;
 }
 
-.title-2 {  
+.title-2 {
     color: #fa9bb0;
+    font-family: 'Libre Caslon Text', serif;
 }
 
+.title-1-white {
+    font-family: 'Mukta Vaani', sans-serif;
+    font-weight: 800;
+    color: #fcfcfc;
+    text-align: center;
+}
+
+.title-2-white {
+    color: #fcfcfc;
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 25px;
+}
+
+/* Links and buttons */
 .bi {
     color: #fcfcfc;
     font-size: 25px;
@@ -83,16 +127,13 @@ img {
     background-color: #111;
 }
 
-.bi {
-    color: #fcfcfc;
-}
-
+/* Colored divs */
 div.top-gradient {
     background: rgb(247, 139, 168);
-    background: linear-gradient(90deg, rgba(247, 139, 168, 1) 0%, rgba(253, 205, 215, 1) 100%);
+    background: linear-gradient(90deg, rgba(247, 139, 168, 1) 0%, rgb(243, 229, 232) 100%);
 }
 
 div.bottom-gradient {
     background: rgb(247, 107, 138);
-    background: linear-gradient(90deg, rgba(247, 107, 138, 1) 0%, rgba(250, 155, 176, 1) 100%);
+    background: linear-gradient(90deg, rgba(247, 107, 138, 1) 0%, rgb(250, 177, 193) 100%);
 }
