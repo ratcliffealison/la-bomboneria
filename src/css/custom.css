@@ -17,18 +17,26 @@ img {
 }
 
 /* Product Cards with Masonry  */
+.grid{
+        margin: 0 auto;
+
+}
 .grid-item {
-    width: 200px;
-    padding: 3px;
-    margin: 4px;
-}
+    width: 150px;
+    margin: 5px;
+    float: left;
+    
 
+}
 .grid-item--width2 {
-    width: 200px;
-    padding: 5px;
-    margin: 2px;
+    width: 160px;
+    margin: 5px;
+    
 }
-
+.grid-item--width2 .card-body {
+    border: white 1px solid;
+    border-radius: 2px;
+}
 /* Background Image Divs */
 .div-1 {
 
