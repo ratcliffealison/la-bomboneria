@@ -3,23 +3,37 @@
 /* Images */
 img {
     border-radius: 2px;
-   
 }
 
 .carousel-item-image {
     filter: grayscale(90%)brightness(50%);
-    -webkit-box-reflect: right -460px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+    -webkit-box-reflect: right -460px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
 }
 
 .image-views {
     position: relative;
     margin: 25px 100px;
-    -webkit-box-reflect: right -80px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+    -webkit-box-reflect: right -80px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+}
+
+/* Product Cards with Masonry  */
+.grid-item {
+    width: 200px;
+    padding: 3px;
+    margin: 4px;
+}
+
+.grid-item--width2 {
+    width: 200px;
+    padding: 5px;
+    margin: 2px;
+
+
 }
 
 /* Background Image Divs */
 .div-1 {
-    
+
     background-image: url("../images/content/chocolate-dark-200.jpg");
     background-repeat: no-repeat;
     /* Do not repeat the image */
@@ -114,6 +128,7 @@ img {
     background-color: #f76b8A;
     color: #fcfcfc;
     border: none;
+    text-transform:uppercase;
 }
 
 .btn:visited {
