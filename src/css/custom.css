@@ -22,20 +22,14 @@ img {
 
 /* Product Cards with Masonry  */
 .grid{
-        margin: 0 auto;
-
+        margin-left: 15px;
 }
 .grid-item {
-    width: 150px;
-    margin: 5px;
+    width: 200px;
     float: left;
-    
-
 }
 .grid-item--width2 {
-    width: 160px;
-    margin: 5px;
-    
+    width: 200px;
 }
 .grid-item--width2 .card-body {
     border: white 1px solid;
